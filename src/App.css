@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+
+}
+
+.sidebar {
+  position: absolute;
+  width: 50px;
+  height: 92vh;
+  border-right: 1px solid black;
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 20px;
+
+}
+
+.defaultStyle {
+  position: relative;
+  width: calc(100vw - 50px);
+  left: 50px;
+}

@@ -1,0 +1,80 @@
+.addSection {
+    height: 92vh;
+    padding: 2%;
+    position: relative;
+
+}
+
+.addInput {
+    position: relative;
+    width: 70%;
+}
+
+.addBox {
+    position: relative;
+    width: 70%;
+    height: 80%;
+    padding-left: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+
+}
+
+
+.addBox span {
+    position: absolute;
+    left: -32%;
+}
+
+
+
+.addInput input,
+.addInput select,
+.addInput textarea {
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #b9b9b9b7;
+    padding: 10px;
+}
+
+.addInput textarea {
+    height: 120px;
+}
+
+.sendBtn {
+    position: absolute;
+    right: 0px;
+    bottom: -50px;
+    width: 80px;
+    height: 30px;
+    font-size: 1rem;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #0B66EF;
+    color: ghostwhite;
+}
+
+.addbtn {
+    position: absolute;
+    right: 0px;
+    bottom: -35px;
+    width: 80px;
+    height: 30px;
+    font-size: 1rem;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #0B66EF;
+    color: ghostwhite;
+}
+
+.sendBtn:hover {
+    background-color: #0855c9;
+    transition: 0.4s;
+}

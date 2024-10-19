@@ -1,0 +1,22 @@
+.homePage {
+
+    height: 92vh;
+    padding: 2%;
+}
+
+.homePage button {
+    height: 36px;
+    width: 200px;
+    font-size: 1.2rem;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #0B66EF;
+    color: ghostwhite;
+}
+
+.homePage button:hover {
+    background-color: #0855c9;
+    transition: 0.4s;
+}
