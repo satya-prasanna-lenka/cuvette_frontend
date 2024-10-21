@@ -1,4 +1,4 @@
-export const API_URL = "http://localhost:5000/api";
+export const API_URL = "https://cuvette-backend-2qml.onrender.com:5000/api";
 
 export const endPoints = () => ({
   signupUrl: `${API_URL}/users/register`,
